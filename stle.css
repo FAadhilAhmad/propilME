@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Roboto:wght@700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+:root{
+    --background-card: #F24E1E;
+    --parent-background: #1ABCFE;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    background-color: #222222;
+}
+/* styling container card first */
+.container-card{
+    background-color: var(--background-card);
+    margin: 10px;
+    padding: 10px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.header-propil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: var(--parent-background);
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.propil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--parent-background);
+    border-radius: 10px;
+}
+.propil :hover{
+    background-color: #1ABCFE;
+    color: #FFFFFF;
+}
+/* end styling container first */
+
+/* styling container button */
+.container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+.btnNav{
+    border: none;
+    background-color: var(--parent-background);
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transfrom 0.3s ease;
+}
+.btnNav:hover{
+    background-color: var(--parent-background);
+}
+.btnNav:active{
+    transform: scale(1.1);
+}
+/* end styling container button */
+.container-identitas{
+   display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+.headerInden{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 10px;
+}
+.songs{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-card);
+    max-width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cardAlbum{
+    display: flex;
+   border-radius: 10px;
+    background-color: var(--parent-background);
+    margin: 10px;
+    padding: 10px;
+}
