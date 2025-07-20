@@ -109,6 +109,8 @@ body {
 .songs{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--background-card);
     max-width: 400px;
     margin: 10px;
@@ -117,8 +119,63 @@ body {
 }
 .cardAlbum{
     display: flex;
+    justify-content: center;
+    align-items: center;
    border-radius: 10px;
     background-color: var(--parent-background);
     margin: 10px;
     padding: 10px;
+}
+.icon img{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.hideIcon{
+    display: none;
+}
+
+.container-album{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--background-card);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.headerPropil{
+    margin: 10px;
+    padding: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.cardPropil{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    background-color: var(--parent-background);
+    border-radius: 10px;
+}
+.cardPropil img{
+    width: 100px;
+    height: 100px;
+    width: 100%;
+    border-radius: 50%;
+    height: fit-content;
+    margin-right: 10px;
+    margin: 10px;
+}
+.cardPropil p{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.hideIconDua{
+    display: none;
 }
