@@ -233,3 +233,6 @@ body {
     justify-content: center;
     text-align: center;
 }
+.hideIconTiga{
+    display: none;
+}
