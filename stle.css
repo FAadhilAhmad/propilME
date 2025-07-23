@@ -236,3 +236,48 @@ body {
 .hideIconTiga{
     display: none;
 }
+.container-comentar{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 10px;
+}
+.inputComentar{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     background-color: var(--background-card);
+     border-radius: 10px;
+}
+.inputComentar h2{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+.inputComentar2{
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.btnComentar{
+    border: none;
+    padding: 10px;
+    margin: 3px;
+    background-color: var(--parent-background);
+    border-radius: 10px;
+    color: white;
+}
+.outputComentar{
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--background-card);
+    color: white;
+    border-radius: 10px;
+}
