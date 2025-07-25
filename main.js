@@ -41,3 +41,24 @@ btnComentar.addEventListener('click', function(){
     inputComentar.value = '';
   }
 });
+
+//function Comentar latihan
+let inputMasuk = document.getElementById('inputMasuk');
+let cardHasil = document.getElementById('cardHasil');
+let btnInput = document.getElementById('btnInput');
+let hideCard = document.getElementById('hasilComentar');
+
+btnInput.addEventListener('click', function(){
+  let comment = inputMasuk.value.trim();
+
+  if (comment !==''){
+    let card = document.createElement('h2');
+    card.textContent = comment;
+    cardHasil.appendChild(card);
+
+    cardHasil.value ='';
+  }
+
+  hideCard.classList.remove('hideComment');
+
+});
