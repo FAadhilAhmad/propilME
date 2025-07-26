@@ -301,6 +301,9 @@ body {
     border-radius: 10px;
     text-align: center;
 }
+.hideComentar2{
+    display: none;
+}
 
 .btnComentar {
     border: none;
@@ -311,7 +314,7 @@ body {
     color: white;
 }
 
-.outputComentar {
+.outputComentar2 {
     margin: 10px;
     padding: 10px;
     background-color: var(--background-card);
