@@ -40,6 +40,7 @@ btnComentar.addEventListener('click', function(){
 
     inputComentar.value = '';
   }
+  outputComentar.classList.remove('hideComentar2');
 });
 
 //function Comentar latihan
